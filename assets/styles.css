@@ -1,0 +1,335 @@
+/*-------------------------- Formatting all----------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+
+.solid-block{
+    background-color: #fff;
+    min-height: 50px;
+    
+}
+
+/*.signup-button{
+    font-family: "Hind+Madurai", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+        justify-content: center;
+    flex: 1 100%;
+    text-align: center;
+}
+*/
+
+/*.heading{
+    font-family: "Hind+Madurai", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: black;
+    justify-content: center;
+    flex: 1 100%;
+    text-align: center;
+    
+}
+*/
+
+#html {
+    height: 100%;
+}
+
+header {
+    font-family: "Hind+Madurai", sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.background {
+  background-image: url("assets/background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+/*-------------------------- Centering ----------------------------- */
+
+
+.jumbotron_landing{
+    /*background-image:  url("https://www.residentadvisor.net/images/profiles/icarus.jpg");*/    
+    background-repeat: no-repeat;
+      background-size: cover;
+    position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: none;
+  background-color: black;
+
+} 
+
+.full-height {
+    min-height: 100vh; /* calc(100vh - 120px)*/
+}
+
+/*-------------------------- Full Screen Formats----------------------------- */
+
+/*.login-button{
+    font-family: "Futura", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    position: absolute;
+    right: 0px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+*/
+
+.menu-item{
+       margin-left: 50px;
+}
+
+
+@media (max-width: 767px) {
+    .large-screens{
+    display: none;
+}
+}
+/*-------------------------- DropDown Menu----------------------------- */
+
+@media (min-width: 768px){
+    #dropdownMenuButton{
+    display: none;
+    position: fixed;
+    right: 0;
+    color: white;
+    background-color: black;
+    
+}
+}
+
+.navDefault {
+    position: fixed;
+    right: 0;
+    background-color: #4a4a4f;
+}
+
+button {
+    border: none;
+    
+    background-color: #0997d3;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+/**.dropdownMenu{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+
+    width: 150px;
+    text-align: center;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(-100%);
+    transition: transform .5s ease-in-out;
+}
+
+.dropdownLink {
+    text-decoration: none;
+    display: block;
+    background-color: #f9f9f9;
+    color: #4a4a4f;
+    padding: 10px 5px;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+
+.dropdownLink:hover {
+    color: #fff;
+    background-color: #a0a0a3;
+}
+
+.dropdown {
+    width: 150px;
+    position: relative;
+}
+
+.dropdown:hover button {
+    background-color: #018ec5;
+}
+
+.dropdown:hover .dropdownMenu {
+    transform: translateY(0);
+}
+
+*/
+
+/*-------------------------- Footer----------------------------- */
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0px;
+    display: inline-block;
+    
+}
+
+
+.icons{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.social-links{
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0; 
+    border-radius: 50px;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+
+}
+    
+/*-------------------------- Landing Page Section----------------------- */
+
+.landing-image{
+    background-image:  url("../assets/background.png");
+    position:fixed;
+    height: 100% !important;
+    width: 100% !important;
+    background-size: cover;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/*-------------------------- Everything but index page----------------------- */
+
+.placeholder{
+    background-color: grey;
+    
+}
+
+/*-------------------------- Join Up Page----------------------- */
+.video-left{
+    display: inline-block;
+    height:80vh;
+    background-color: #9C134E;
+}
+
+.video-middle{
+    display: inline-block;
+    height: 80vh;
+    background-color: #F6E11E;
+}
+
+.video-right{
+    display: inline-block;
+    height: 80vh;
+    background-color: #E90567;
+}
+
+.scroll-icon{
+    display: inline-block;
+    height: 10vh;
+    background-color: #169DB6;
+}
+
+.success-left{
+    display: inline-block;
+    height: 30vh;
+    background-color: #0B859C;
+}
+
+.success-middle {
+    display: inline-block;
+    height: 30vh;
+    background-color: #9C134E;
+}
+
+.success-right{
+    display: inline-block;
+    height: 30vh;
+    background-color: #F6E11E;
+}
+
+.join-left{
+    display: inline-block;
+    height: 70vh;
+    background-color: #E90567;
+}
+
+.join-main{
+    display: inline-block;
+    height: 70vh;
+    background-color: #169DB6;
+}
+
+.join-right{
+    display: inline-block;
+    height: 70vh;
+    background-color: #0B859C;
+}
+
+/*-------------------------- Blog Page----------------------- */
+
+.item-one{
+    display: inline-block;
+    height:60vh;
+    background-color: #9C134E;  
+}
+
+.item-two{
+    display: inline-block;
+    height:40vh;
+    background-color: #F6E11E;  
+}
+
+.item-three{
+    display: inline-block;
+    height:40vh;
+    background-color: #E90567;  
+}
+
+.item-four{
+    display: inline-block;
+    height:40vh;
+    background-color: #169DB6;  
+}
+
+
+/*-------------------------- Community Page----------------------- */
+.chat-box{
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.list-sizing{
+    height: 100%;
+    
+}
