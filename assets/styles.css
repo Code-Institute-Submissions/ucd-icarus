@@ -15,7 +15,7 @@ header {
     font-family: "Hind+Madurai", sans-serif;
     font-size: 20px;
     color: white;
-    margin-top: 15px;
+    margin-top: 10px
     
 }
 
@@ -45,6 +45,20 @@ header {
 
 .full-height {
     min-height: 100vh; /* calc(100vh - 120px)*/
+}
+
+/*-------------------------- Upcoming Events ----------------------------- */
+
+.upcoming-events{
+    height: 500px;
+    color: white;
+    
+}
+
+.past-events{
+    height: 500px;
+    color: white;
+    
 }
 
 /*-------------------------- Full Screen Formats----------------------------- */
@@ -79,6 +93,8 @@ header {
     background-color: #4a4a4f;
 }
 
+/* Not sure this is needed with the bootstrap button? 
+
 button {
     border: none;
     
@@ -89,7 +105,7 @@ button {
     text-transform: uppercase;
     cursor: pointer;
 }
-
+*/
 
 
 /*-------------------------- Footer----------------------------- */
@@ -125,12 +141,15 @@ button {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
+    color: black;
+    background-color: white;
+    margin-right: 20px;
 
 }
     
 /*-------------------------- Landing Page Section----------------------- */
+
+
 
 .landing-image{
     background-image:  url("../assets/background.png");
@@ -141,8 +160,9 @@ button {
     z-index: -1;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    
 }
+
 
 /*-------------------------- Everything but index page----------------------- */
 
@@ -221,6 +241,15 @@ button {
  
 }
 
+.small-articles{
+    display: inline-block;
+    margin-top: 50px;
+    
+
+}
+
+/* no longer need multiple classes for the news items 
+
 .item-two{
     display: inline-block;
     margin-top: 50px;
@@ -240,6 +269,7 @@ button {
     margin-top: 50px;
       
 }
+*/
 
 .jumbotron_news {
     background-image:  url("https://ichef.bbci.co.uk/images/ic/960x540/p02xc61j.jpg");
