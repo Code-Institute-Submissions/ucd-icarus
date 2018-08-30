@@ -4,36 +4,11 @@
 
 
 
-.solid-block{
-    background-color: #fff;
-    min-height: 50px;
-    
-}
 
-/*.signup-button{
-    font-family: "Hind+Madurai", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-        justify-content: center;
-    flex: 1 100%;
-    text-align: center;
-}
-*/
-
-/*.heading{
-    font-family: "Hind+Madurai", sans-serif;
-    font-weight: 600;
-    font-size: 60px;
-    color: black;
-    justify-content: center;
-    flex: 1 100%;
-    text-align: center;
-    
-}
-*/
 
 #html {
     height: 100%;
+    font-family: "Hind+Madurai";
 }
 
 header {
@@ -73,16 +48,6 @@ header {
 
 /*-------------------------- Full Screen Formats----------------------------- */
 
-/*.login-button{
-    font-family: "Futura", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-    position: absolute;
-    right: 0px;
-    margin-right: 5px;
-    margin-top: 5px;
-}
-*/
 
 .menu-item{
        margin-left: 50px;
@@ -125,52 +90,6 @@ button {
 }
 
 
-
-/**.dropdownMenu{
-    list-style: none;
-    margin:0;
-    padding: 0;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50px;
-
-    width: 150px;
-    text-align: center;
-    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
-    transform: translateY(-100%);
-    transition: transform .5s ease-in-out;
-}
-
-.dropdownLink {
-    text-decoration: none;
-    display: block;
-    background-color: #f9f9f9;
-    color: #4a4a4f;
-    padding: 10px 5px;
-    transition: background-color .5s ease-in-out, color .5s ease-in-out;
-}
-
-.dropdownLink:hover {
-    color: #fff;
-    background-color: #a0a0a3;
-}
-
-.dropdown {
-    width: 150px;
-    position: relative;
-}
-
-.dropdown:hover button {
-    background-color: #018ec5;
-}
-
-.dropdown:hover .dropdownMenu {
-    transform: translateY(0);
-}
-
-*/
 
 /*-------------------------- Footer----------------------------- */
 
@@ -296,28 +215,37 @@ button {
 
 .item-one{
     display: inline-block;
-    height:60vh;
-    background-color: #9C134E;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
 }
 
 .item-two{
     display: inline-block;
-    height:40vh;
-    background-color: #F6E11E;  
+    margin-top: 50px;
+    
+
 }
 
 .item-three{
     display: inline-block;
-    height:40vh;
-    background-color: #E90567;  
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+    
+ 
 }
 
 .item-four{
     display: inline-block;
-    height:40vh;
-    background-color: #169DB6;  
+    margin-top: 50px;
+      
 }
 
+.jumbotron_news {
+    background-image:  url("https://ichef.bbci.co.uk/images/ic/960x540/p02xc61j.jpg");
+
+}
 
 /*-------------------------- Community Page----------------------- */
 .chat-box{
