@@ -162,17 +162,15 @@ menu-height:visited{
 
 
 .upcoming-events {
-    height: 500px;
     color: white;
     font-family: 'Hind Madurai', sans-serif;
-
+    height: 100px;
 }
 
 .past-events {
-    height: 500px;
     color: white;
     font-family: 'Hind Madurai', sans-serif;
-
+    height: 100px;
 }
 
 
@@ -202,8 +200,8 @@ menu-height:visited{
   position: absolute;
   top:0;
   left: 0;
-  /*width: 100%;
-  height: 100%;*/
+  width: 100%;
+  height: 100%;
 }
 
 .music-title{
