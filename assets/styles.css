@@ -161,16 +161,17 @@ menu-height:visited{
 }
 
 
-.upcoming-events {
+.events {
     color: white;
     font-family: 'Hind Madurai', sans-serif;
     height: 100px;
 }
 
-.past-events {
+.events-title {
     color: white;
     font-family: 'Hind Madurai', sans-serif;
     height: 100px;
+    font-size: 30px; 
 }
 
 
@@ -208,6 +209,12 @@ menu-height:visited{
     z-index: 2;
 }
 
+@media (min-width: 768px) {
+.spacer{
+    height: 60px
+}
+}
+
 /*-------------------------- News Page----------------------- */
 
 .item-one {
@@ -243,10 +250,16 @@ menu-height:visited{
     width: 150px;
 }
 
+@media (max-width: 767px) {
+.small-news-image {
+    display: none;
+}
+}
+
 /*-------------------------- Contact Page----------------------- */
 
 .form-title {
-    padding-top: 15px;
+    margin-top: 60px;
     
     font-family: 'Hind Madurai', sans-serif;
    
@@ -255,14 +268,18 @@ menu-height:visited{
 
 .form{
     margin-top: 60px;
+    margin-bottom: 120px;
     
 }
 
-
+@media (min-width: 768px) {
 .social-links-contact {
     padding-bottom: 15px;
 }
+}
 
+
+@media (min-width: 768px) {
 .social-links-contact li a i {
     width: 50px;
     height: 50px;
@@ -276,4 +293,28 @@ menu-height:visited{
     margin-right: 20px;
     margin-top: 50px;
 }
+}
 
+/*-------For small screens-------- */
+
+@media (max-width: 767px) {
+.social-links-contact {
+     padding-bottom: 15px;
+}
+}
+
+
+@media (max-width: 767px) {
+.social-links-contact li a i {
+    width: 20px;
+    height: 20px;
+    padding: 12px 0;
+    border-radius: 30px;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-right: 2px;
+}
+}
