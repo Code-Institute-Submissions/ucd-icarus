@@ -46,7 +46,7 @@ h1{
 }
 
 .full-height {
-    min-height: 100vh;
+    min-height: 95vh;
     /* calc(100vh - 120px)*/
 }
 
@@ -160,6 +160,12 @@ menu-height:visited{
 
 }
 
+.scroll-down{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 100px;
+    
+}
 
 .events {
     color: white;
