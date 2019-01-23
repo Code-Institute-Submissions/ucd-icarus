@@ -16,7 +16,7 @@ header {
 }
 
 .background {
-    background-image: url("assets/background.png") no-repeat center center fixed;
+    background: url("assets/background.png") no-repeat / center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,6 +27,18 @@ header {
 h1{
    font-family: 'Hind Madurai', sans-serif; 
    font-size: 50px;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.dropdown {
+        margin-left: 40px;
 }
 
 /*-------------------------- Centering ----------------------------- */
@@ -150,7 +162,7 @@ menu-height:visited{
 
 .landing-image {
     background-image: url("../assets/background.png");
-    position: fixed;
+    position:absolute;
     height: 100% !important;
     width: 100% !important;
     background-size: cover;
