@@ -233,7 +233,7 @@ menu-height:visited{
 }
 
 .music {
-   display: block;
+   display: inline-block;
    margin: 0 auto;
 }
 
@@ -282,6 +282,7 @@ menu-height:visited{
 .fabric {
     height: 150px;
     width: 150px;
+    padding-left: 100px;
 }
 
 @media (max-width: 767px) {
