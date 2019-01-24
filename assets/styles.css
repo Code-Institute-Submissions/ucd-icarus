@@ -35,6 +35,7 @@ h1{
     left: 0;
     width: 100%;
     z-index: 1;
+    color: #ffffff;
 }
 
 .dropdown {
@@ -65,6 +66,9 @@ h1{
 
 .title{
     width:100vw;
+    margin: 0;
+    padding: 0;
+    
 }
 
 
@@ -133,7 +137,7 @@ menu-height:visited{
 
 
 .icons {
-    position: absolute;
+    position: relative;
     bottom: 0px;
     right: 0px;
     margin-right: 5px;
@@ -162,7 +166,7 @@ menu-height:visited{
 
 .landing-image {
     background-image: url("../assets/background.png");
-    position:absolute;
+    position:scroll-down;
     height: 100% !important;
     width: 100% !important;
     background-size: cover;
@@ -207,23 +211,37 @@ menu-height:visited{
 
 /*-------------------------- Music----------------------- */
 
+.intro{
+    font-family: 'Hind Madurai', sans-serif;
+    text-align: center;
+    margin:50px;
+}
 
 
 .iframe-container{
   position: relative;
   padding-bottom: 400px; 
   height: 0;
+  margin-top: 50px;
 }
 .iframe-container iframe{
   position: absolute;
   top:0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 
-.music-title{
-    z-index: 2;
+.music {
+   display: block;
+   margin: 0 auto;
+}
+
+.music-inner {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -236,8 +254,7 @@ menu-height:visited{
 
 .item-one {
     display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin:50px;
     font-size: 50px;
     font-family: 'Hind Madurai', sans-serif;
     
