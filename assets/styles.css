@@ -232,10 +232,14 @@ menu-height:visited{
   height: 80%;
 }
 
+/*
 .music {
-   display: inline-block;
+   display: block;
    margin: 0 auto;
 }
+duplicate - can use text-center
+*/
+
 
 .music-inner {
     margin-top: 40px;
