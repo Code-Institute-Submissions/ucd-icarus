@@ -42,6 +42,7 @@ h1 {
 
 .dropdown {
     margin-left: 40px;
+    margin-bottom: 20px;
 }
 
 /*-------------------------- Centering ----------------------------- */
@@ -301,7 +302,7 @@ duplicate - can use text-center
 .fabric {
     height: 150px;
     width: 150px;
-    padding-left: 100px;
+    padding-left: 0px;
 }
 
 @media (max-width: 767px) {
