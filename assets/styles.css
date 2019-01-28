@@ -15,6 +15,8 @@ header {
     margin-top: 10px
 }
 
+
+
 .background {
     background: url("assets/background.png") no-repeat / center center fixed;
     -webkit-background-size: cover;
@@ -24,12 +26,12 @@ header {
 
 }
 
-h1{
-   font-family: 'Hind Madurai', sans-serif; 
-   font-size: 50px;
+h1 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 50px;
 }
 
-.navbar{
+.navbar {
     position: absolute;
     top: 0;
     left: 0;
@@ -39,7 +41,7 @@ h1{
 }
 
 .dropdown {
-        margin-left: 40px;
+    margin-left: 40px;
 }
 
 /*-------------------------- Centering ----------------------------- */
@@ -59,19 +61,19 @@ h1{
 }
 
 .full-height {
-    min-height: 95vh;
+    min-height: 85vh;
     /* calc(100vh - 120px)*/
 }
 
 
-.title{
-    width:100%;
+.title {
+    width: 100%;
     margin: 0;
     padding: 0;
-    
+
 }
 
-.no-padding{
+.no-padding {
     padding: 0;
 }
 
@@ -85,23 +87,32 @@ h1{
     font-family: 'Hind Madurai', sans-serif;
 }
 
-.menu-height{
+header div ul li a span {
+    color: black;
+}
+
+
+#home-nav li a span {
+    color: white;
+}
+
+
+.menu-height {
     font-size: 20px;
     padding-top: 15px;
-    
+
 }
 
 
-menu-height:visited{
-  text-decoration: none;
+menu-height:visited {
+    text-decoration: none;
 }
 
-/*Cant seem to make text go black!!!*/ 
 
 @media (max-width: 767px) {
     .large-screens {
         display: none;
-        
+
     }
 }
 
@@ -120,17 +131,16 @@ menu-height:visited{
 
 @media (min-width: 768px) {
     .navDefault {
-    position: fixed;
-    right: 0;
-    background-color: #4a4a4f;
-}
+        position: fixed;
+        right: 0;
+        background-color: #4a4a4f;
+    }
 }
 
 
 /*-------------------------- Footer----------------------------- */
 
 .footer {
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -157,12 +167,13 @@ menu-height:visited{
     height: 20px;
     padding: 12px 0;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 7px;
     text-align: center;
     color: black;
     background-color: white;
     margin-right: 20px;
+    margin-top: 20px;
 
 }
 
@@ -170,7 +181,7 @@ menu-height:visited{
 
 .landing-image {
     background-image: url("../assets/background.png");
-    position:scroll-down;
+    position: scroll-down;
     height: 100% !important;
     width: 100% !important;
     background-size: cover;
@@ -180,11 +191,11 @@ menu-height:visited{
 
 }
 
-.scroll-down{
+.scroll-down {
     font-size: 30px;
     color: white;
     padding-bottom: 100px;
-    
+
 }
 
 .events {
@@ -197,7 +208,7 @@ menu-height:visited{
     color: white;
     font-family: 'Hind Madurai', sans-serif;
     height: 100px;
-    font-size: 30px; 
+    font-size: 30px;
 }
 
 
@@ -208,32 +219,33 @@ menu-height:visited{
 
 }
 
-.filler{
+.filler {
     background-color: black;
     border-color: none;
 }
 
 /*-------------------------- Music----------------------- */
 
-.intro{
+.intro {
     font-family: 'Hind Madurai', sans-serif;
     text-align: center;
-    margin:50px;
+    margin: 50px;
 }
 
 
-.iframe-container{
-  position: relative;
-  padding-bottom: 400px; 
-  height: 0;
-  margin-top: 50px;
+.iframe-container {
+    position: relative;
+    padding-bottom: 400px;
+    height: 0;
+    margin-top: 50px;
 }
-.iframe-container iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 80%;
-  height: 80%;
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
 }
 
 /*
@@ -244,7 +256,6 @@ menu-height:visited{
 duplicate - can use text-center
 */
 
-
 .music-inner {
     margin-top: 40px;
     margin-left: auto;
@@ -253,19 +264,19 @@ duplicate - can use text-center
 }
 
 @media (min-width: 768px) {
-.spacer{
-    height: 60px
-}
+    .spacer {
+        height: 60px
+    }
 }
 
 /*-------------------------- News Page----------------------- */
 
 .item-one {
     display: inline-block;
-    margin:50px;
+    margin: 50px;
     font-size: 50px;
     font-family: 'Hind Madurai', sans-serif;
-    
+
 
 }
 
@@ -275,7 +286,7 @@ duplicate - can use text-center
     font-family: 'Hind Madurai', sans-serif;
     padding-bottom: 50px;
     padding-top: 50px;
-    
+
 
 }
 
@@ -294,70 +305,70 @@ duplicate - can use text-center
 }
 
 @media (max-width: 767px) {
-.small-news-image {
-    display: none;
-}
+    .small-news-image {
+        display: none;
+    }
 }
 
 /*-------------------------- Contact Page----------------------- */
 
 .form-title {
     margin-top: 60px;
-    
+
     font-family: 'Hind Madurai', sans-serif;
-   
-   color: black;
+
+    color: black;
 }
 
-.form{
+.form {
     margin-top: 60px;
     margin-bottom: 100px;
-    
+
 }
 
 @media (min-width: 768px) {
-.social-links-contact {
-    padding-bottom: 15px;
-}
+    .social-links-contact {
+        padding-bottom: 15px;
+    }
 }
 
 
 @media (min-width: 768px) {
-.social-links-contact li a i {
-    width: 50px;
-    height: 50px;
-    padding: 12px 0;
-    border-radius: 70px;
-    font-size: 50px;
-    line-height: 7px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    margin-right: 20px;
-    margin-top: 50px;
-}
+    .social-links-contact li a i {
+        width: 50px;
+        height: 50px;
+        padding: 12px 0;
+        border-radius: 70px;
+        font-size: 50px;
+        line-height: 7px;
+        text-align: center;
+        color: black;
+        background-color: white;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
 }
 
 /*-------For small screens-------- */
 
 @media (max-width: 767px) {
-.social-links-contact {
-     padding-bottom: 15px;
-}
+    .social-links-contact {
+        padding-bottom: 15px;
+    }
 }
 
 
 @media (max-width: 767px) {
-.social-links-contact li a i {
-    width: 20px;
-    height: 20px;
-    padding: 12px 0;
-    border-radius: 30px;
-    font-size: 15px;
-    line-height: 7px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    margin-right: 2px;
-}
+    .social-links-contact li a i {
+        width: 20px;
+        height: 20px;
+        padding: 12px 0;
+        border-radius: 30px;
+        font-size: 15px;
+        line-height: 7px;
+        text-align: center;
+        color: black;
+        background-color: white;
+        margin-right: 2px;
+    }
 }
