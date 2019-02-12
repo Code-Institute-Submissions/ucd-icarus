@@ -1,5 +1,9 @@
 <h1> This is Icarus</h1>
 
+<h2>Final site address</h2>
+https://sammydartnall10.github.io/ucd-icarus/
+
+<h2>About this page</h2>
 <h3> This webpage is made for the first code institue module  </h3>
 
 Made as a means of promoting the existing band, Icarus, it consists of:
@@ -11,20 +15,24 @@ The 'send' functionality of the form is not yet active, as it is not a required 
 Bootstrap has been used to structure the page, and provide features such as a jumbotron (see blog page).
 This has then been styled using my own CSS to change font, colour and look and feel of the site. 
 
+<h2>UX</h2>
+This site is designed for and aimed at a variety of users.
+
+Fans of the band will have heard of and know the band already, and have the main goal of wanting to hear recent releases, keep up to date with news and find out when they are next playing. 
+
+Other artists that have heard the band and are interesed in collaborating will need a means to contact the band with such requests. 
+
+Promoters and managers wanting to hire the band for gigs/festivals will need a means to hear the music they play, and also a means to get in touch if they like what they hear. 
+
+New listeners that that are looking to find out more about the band will be looking to hear more music, and find out about the band, current news and where they are playing. 
+
+The architecture of the site is as follows: 
+
+![Alt text](assets/architecture.jpg?raw=true "Title")
 
 
 
 
-
-
-
-
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 Features
