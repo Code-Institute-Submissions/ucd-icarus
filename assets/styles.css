@@ -17,8 +17,11 @@ header {
 
 .grey-background{
     background-color:#EFEDE8;
-    margin: 0;
-    min-width: 100vw;
+}
+
+#intro-title{
+    background-color:#EFEDE8;
+    min-width: 100%;
 }
 
 
@@ -83,6 +86,7 @@ h1 {
 
 .no-padding {
     padding: 0;
+    min-width: 100%;
 }
 
 
@@ -256,14 +260,6 @@ menu-height:visited {
     height: 80%;
 }
 
-/*
-.music {
-   display: block;
-   margin: 0 auto;
-}
-duplicate - can use text-center
-*/
-
 .music-inner {
     margin:10px;
     border-color: black;
@@ -327,9 +323,7 @@ duplicate - can use text-center
 
 .form-title {
     margin-top: 60px;
-
     font-family: 'Hind Madurai', sans-serif;
-
     color: black;
 }
 
