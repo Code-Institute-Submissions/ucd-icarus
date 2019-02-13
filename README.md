@@ -28,62 +28,79 @@ New listeners that that are looking to find out more about the band will be look
 
 The architecture of the site is as follows: 
 
-![Alt text](assets/architecture.jpg?raw=true "Title")
+<img src="assets/architecture.jpg">
+
+All pages will have an 'in' and and 'out'- ie the user is never stuck on one page. 
 
 
 
+<h2>Features</h2>
+The website has a number of deployed features, but also a few that may be implemented at a later date. 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+<h3>Existing Features</h3>
+Feature 1 - allows users to listen to new releases, without losing the webpage through embedding youtibe videos into the site 
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Feature 2 - the blog posts collate the latests news for the band, but not the full article (and so not taking up the whole page). To reduce the overhead of the site, users wanting to read more of an article can click the link to be taken to an external page. target=_blank opens this on a new page however, so the user can find their way back. 
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Feature 3 - the form allows users to quickly request for the band to get in touch via email - and the conformation page lets the user know this request has gone through.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Feature 4 - on index.html, the user can scroll down to find the events the band are next at- these links will take them to a site where they may purchse tickets. 
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Feature 5 - "catch up" links on the index.html takes user to the bands social media pages, where they can find content on gigs/concerts already played at. 
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<h3>Features Left to Implement</h3>
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+A chat feature could either contact the band, or take a question and send it to a socail media site such as twitter for the bands to answer. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+<h2>Technologies Used</h2>
+
+A combination of HTML5 and CSS has been used thoughout this project. 
+
+For site styling and stucture, the Bootstraplibrary has been employed across the site. Bootstrap documentation can be found here: https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+In addition to bootstrap, custom styling has been added, and can be found in the assets/styles.css file. 
+
+<h2>Testing </h2>
+
+For this project, testing was carried out manually, both in the browser and with Google developer tools to test different screen sizes.
+
+HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium (W3C): https://validator.w3.org/
+
+CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium (W3C): https://jigsaw.w3.org/css-validator/
+
+Index Page:
+Able to scroll down, and find and click on links to external pages
+
+Music Page:
+Able to click on, play, pause music videos while on the page. 
+
+News Page: 
+Able to click on and be taken to external resources 
 
 Contact form:
 Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Try to submit a form with content -> conformation page will appear
+Try to submit an empty form -> error message saying "please enter email" appears
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+<h2>Deployment</h2>
+GitHub has been used throughout this project to maintain version control as feature are added. After adding a new feature, the code is pushed to GitHub. 
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The site has also been deployed using GitHub pages - this is simply a process of in settings for the project, setting source to master branch under GitHub pages and saving the changes. The resulting link can then be used to access the page. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+<h2>Credits</h2>
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+<h3>Content</h3>
+The intro text for the music page has been taken from thier biography on spotify (found here: https://open.spotify.com/artist/0nUF7iT0e6D5xEl743Jfu3/about)
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+
+<h3>Media</h3>
+Intro text and images of the band in each of the news articles has been taken from the articles themselves, found here: 
+https://londontheinside.com/interview-icarus/
+and here:
+https://www.fabriclondon.com/blog/view/introducing-icarus-and-their-indicative-promotional-mix
+
+<h2>Acknowledgements</h2>
+I received inspiration for this project from the band themsleves, thier social media and online content - as current artists I have tried to produce something that was in keeping with their look and feel. 
+
+I also received direction from my mentor in how best tackle a project like this, and to further understanding of technolgies such as bootstrap, and how to use the library in a way that doesnt conflict with custom CSS (ie, stop things from jumping around to where they shouldnt!)
