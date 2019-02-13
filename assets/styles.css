@@ -28,7 +28,7 @@ header {
 
 
 .background {
-    background: url("assets/background.png") no-repeat / center center fixed;
+    background: url("assets/background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -193,7 +193,7 @@ menu-height:visited {
 
 .landing-image {
     background-image: url("../assets/background.png");
-    position: scroll-down;
+    
     height: 100% !important;
     width: 100% !important;
     background-size: cover;
@@ -229,11 +229,6 @@ menu-height:visited {
 .placeholder {
     background-color: grey;
 
-}
-
-.filler {
-    background-color: black;
-    border-color: none;
 }
 
 /*-------------------------- Music----------------------- */
