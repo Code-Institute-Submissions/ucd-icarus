@@ -15,12 +15,12 @@ header {
     margin-top: 10px
 }
 
-.grey-background{
-    background-color:#EFEDE8;
+.grey-background {
+    background-color: #EFEDE8;
 }
 
-#intro-title{
-    background-color:#EFEDE8;
+#intro-title {
+    background-color: #EFEDE8;
     min-width: 100%;
 }
 
@@ -193,7 +193,7 @@ menu-height:visited {
 
 .landing-image {
     background-image: url("../assets/background.png");
-    
+
     height: 100% !important;
     width: 100% !important;
     background-size: cover;
@@ -256,13 +256,13 @@ menu-height:visited {
 }
 
 .music-inner {
-    margin:10px;
+    margin: 10px;
     border-color: black;
     border: 1px;
     padding: 15px;
     background-color: white;
     border-radius: 5px;
-    
+
 }
 
 @media (min-width: 768px) {
@@ -351,23 +351,23 @@ menu-height:visited {
     }
 }
 
-.conf-spacing-above{
+.conf-spacing-above {
     margin-top: 50px;
-    background-color:#EFEDE8;
+    background-color: #EFEDE8;
 }
 
 .btn-primary {
     color: #fff;
     background-color: #F9C033;
     border-color: black;
-    
+
 }
 
 .btn-primary:hover {
     color: #fff;
     background-color: #FFAA00;
     border-color: black;
-    
+
 }
 
 
